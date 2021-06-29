@@ -36,3 +36,7 @@ function newbieFrontDev(){
 
 - 2010 - 2014 Federal State Financed Educational Institution of Higher Eductaion, Ural Technical Institute of Communications and informatics, bachelor of Engineering and Technology
 - 2014 - 2016 Federal State Financed Educational Institution of Higher Eductaion, Ural Technical Institute of Communications and informatics, master of infocommunication technologies and communication system.
+
+## English
+
+A2 Pre-intermediate
