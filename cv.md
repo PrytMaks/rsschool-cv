@@ -32,4 +32,7 @@ function newbieFrontDev(){
 - FreeCodeCamp Basic HTML and HTML5, Basic CSS
 - RSSchool Front-end 2021q1 (Not finished)
 
+## Education
 
+- 2010 - 2014 Federal State Financed Educational Institution of Higher Eductaion, Ural Technical Institute of Communications and informatics, bachelor of Engineering and Technology
+- 2014 - 2016 Federal State Financed Educational Institution of Higher Eductaion, Ural Technical Institute of Communications and informatics, master of infocommunication technologies and communication system.
