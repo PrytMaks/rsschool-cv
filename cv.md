@@ -26,3 +26,10 @@ function newbieFrontDev(){
 };
 
 ```
+## Experience
+
+- HTML Academy intensive simulators
+- FreeCodeCamp Basic HTML and HTML5, Basic CSS
+- RSSchool Front-end 2021q1 (Not finished)
+
+
