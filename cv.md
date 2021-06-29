@@ -17,3 +17,12 @@ Hello, my name is Maxim, my surname is Prytkov. I am 27 years old, I live in Rus
 - JavaScript (beginner)
 - Figma
 - Git
+
+## Code example
+
+```
+function newbieFrontDev(){
+  console.log('Hello RS School')
+};
+
+```
