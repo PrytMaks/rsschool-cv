@@ -8,7 +8,9 @@ body{
   line-height: 14px;
   letter-spacing: 0px;
 }
-
+.page__title{
+  display: none;
+}
 .main{
   display: grid;
   grid-template-columns: 0.5fr 1fr;
@@ -164,6 +166,46 @@ body{
   padding: 6px 0 13px 21px;
 }
 
+.user__info-txt{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+
+  padding: 7px 14px 7px 13px;
+}
+.user__skills{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.skill{
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(196, 196, 196, 0.4);
+}
+.skill__pic{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.figma__skill{
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+
+.git__skill{
+  width: 80%;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+}
+
 /*Right column start*/
 .right__col{
   max-width: 321px;
@@ -240,4 +282,81 @@ body{
 
 .person__code-ex{
   margin: 0;
+  height: 60px;
+}
+
+.experience__list{
+  padding: 12px 0 0 10px;
+  margin: 0;
+}
+.experience__title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #343434;
+}
+
+.specification{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #343434;
+  margin: 0;
+}
+.institute{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #343434;
+  margin: 0;
+}
+
+.year{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 18px;
+  color: #73808D;
+}
+.person__spec{
+  padding-top: 12px;
+}
+
+.spec__two{
+  padding-bottom: 30px;
+}
+
+.footer{
+  padding-bottom: 5px;
+  margin: 0 auto;
+  background: rgba(224, 37, 206, 0.79);
+  max-width: 650px;
+}
+
+.footer__wrapper{
+  margin: 0 auto;
+  max-width: 623px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 10px;
+}
+
+.container__wrapper{
+  padding: 5px 0;
+ 
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.git__img{
+  width: 30px;
+}
+
+.rsschool__img{
+  width: 50px;
 }
