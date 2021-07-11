@@ -168,7 +168,9 @@ body {
 .user__info-big-wrapper {
   padding: 6px 0 13px 21px;
 }
-
+.user__contact {
+  padding-left: 0px;
+}
 .user__info-txt {
   font-style: normal;
   font-weight: bold;
@@ -182,9 +184,11 @@ body {
   display: flex;
   justify-content: space-between;
   padding-bottom: 8px;
+  padding-left: 0px;
 }
 
 .skill {
+  list-style-type: none;
   position: relative;
   width: 44px;
   height: 44px;
