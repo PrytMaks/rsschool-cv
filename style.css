@@ -10,6 +10,9 @@ body{
 }
 
 .main{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 6px;
   margin: 0 auto;
   max-width: 650px;
   background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
@@ -23,6 +26,7 @@ body{
 .left__col-wrapper{
   background: rgba(196, 196, 196, 0.3);
   border-radius: 10px;
+  min-width: 296px;
 }
 
 .container {
@@ -120,10 +124,6 @@ body{
   padding: 9px 35px 9px 20px;
 }
 
-.info-big{
- 
-}
-
 .info__lang{
  display: flex;
  align-items: center;
@@ -156,10 +156,88 @@ body{
 }
 
 .info__lang svg{
-    margin-right: 4px;
+  margin-right: 4px;
   padding-top: 2px;
 }
 
-.user__info-wrapper{
+.user__info-big-wrapper{
   padding: 6px 0 13px 21px;
+}
+
+/*Right column start*/
+.right__col{
+  max-width: 321px;
+  padding: 10px 13px 10px 0;
+}
+.right__col-wrapper{
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.container__right{
+  max-width: 294px;
+  margin: 0 auto;
+}
+
+.about__user{
+  display: flex;
+  align-items: center;
+  padding-top: 19px;
+}
+
+.about__user_block{
+  width: 154px;
+  height: 24px;
+
+  background: #545454;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.about__user-line{
+  width: 141px ;
+  height: 1px;
+  background: #545454;
+}
+
+.about__user-text{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color:  #FFFFFF;
+  text-transform: uppercase;
+  padding: 3px;
+  margin: 0 auto;
+}
+
+.about__user-info-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.about__person-info-text{
+  margin: 0px;
+}
+
+.person__title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #343434;
+  margin: 0;
+  padding-top: 12px;
+}
+
+.user__block{
+  padding-top: 12px;
+}
+
+.person__code-ex{
+  margin: 0;
 }
