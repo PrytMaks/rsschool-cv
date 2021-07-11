@@ -1,4 +1,4 @@
-body{
+body {
   box-sizing: border-box;
 
   font-family: Calibri;
@@ -8,24 +8,28 @@ body{
   line-height: 14px;
   letter-spacing: 0px;
 }
-.page__title{
+.page__title {
   display: none;
 }
-.main{
+.main {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   gap: 6px;
   margin: 0 auto;
   max-width: 650px;
-  background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+  background: linear-gradient(
+    180deg,
+    rgba(3, 56, 244, 0.71) 0%,
+    rgba(224, 37, 206, 0.79) 93.75%
+  );
 }
 
 .left__col {
   max-width: 296px;
-  padding: 10px 0 10px 14px; 
+  padding: 10px 0 10px 14px;
 }
 
-.left__col-wrapper{
+.left__col-wrapper {
   background: rgba(196, 196, 196, 0.3);
   border-radius: 10px;
   min-width: 296px;
@@ -35,37 +39,36 @@ body{
   max-width: 260px;
   margin: 0 auto;
 }
-.header{
+.header {
   display: flex;
-
 }
-.header__avatar{
+.header__avatar {
   width: 110px;
   height: 117px;
 
   padding-top: 10px;
 }
-.avatar__item{
+.avatar__item {
   border-radius: 93px;
   width: 110px;
   height: 117px;
 }
 
-.header__text{
-    padding:15px 0 0 22px;
+.header__text {
+  padding: 15px 0 0 22px;
 }
 
-.header__name{
+.header__name {
   font-family: Montserrat;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0em;
-  color: #CECACA;
+  color: #cecaca;
 }
 
-.header__title{
+.header__title {
   font-family: Montserrat;
   font-size: 35px;
   font-style: normal;
@@ -73,10 +76,10 @@ body{
   line-height: 43px;
   letter-spacing: 0em;
   margin: 0;
-  color: #FFFFFF;    
+  color: #ffffff;
 }
 
-.header__prof{
+.header__prof {
   font-family: Montserrat;
   font-size: 15px;
   font-style: normal;
@@ -84,122 +87,122 @@ body{
   line-height: 18px;
   letter-spacing: 0em;
   margin: 0;
-  color: #CECACA;
+  color: #cecaca;
 }
-.user__info-wrapper{
+.user__info-wrapper {
   padding-top: 20px;
 }
 
-.user__info{
+.user__info {
   background: rgba(196, 196, 196, 0.35);
   border-radius: 10px;
 }
 
-.info-small{
+.info-small {
   display: flex;
   align-items: center;
 
   margin-bottom: 5px;
 }
 
-.small-loc{
+.small-loc {
   margin-bottom: 13px;
 }
 .info-small a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.user__info-location{
-  color: #FFFFFF;
+.user__info-location {
+  color: #ffffff;
 }
-.user__svg{
+.user__svg {
   padding: 11px 32.2px 11px 17px;
 }
 
-.user__svg-phone{
+.user__svg-phone {
   padding: 10px 32px 10px 18px;
 }
-.user__svg-site{
+.user__svg-site {
   padding: 7px 31px 7px 15.2px;
 }
-.user__svg-loc{
+.user__svg-loc {
   padding: 9px 35px 9px 20px;
 }
 
-.info__lang{
- display: flex;
- align-items: center;
+.info__lang {
+  display: flex;
+  align-items: center;
 }
 
-.info__text{
+.info__text {
   margin: 0;
 
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 18px;  
-  color: #FFFFFF;
+  line-height: 18px;
+  color: #ffffff;
 }
 
-.lang-info{
+.lang-info {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
-  
-  color: #FAFAFA;
+
+  color: #fafafa;
 }
 
-.lang-ru{
-   padding-right: 23px;
+.lang-ru {
+  padding-right: 23px;
 }
-.lang-en{
-  padding-right: 8px ;
+.lang-en {
+  padding-right: 8px;
 }
 
-.info__lang svg{
+.info__lang svg {
   margin-right: 4px;
   padding-top: 2px;
 }
 
-.user__info-big-wrapper{
+.user__info-big-wrapper {
   padding: 6px 0 13px 21px;
 }
 
-.user__info-txt{
+.user__info-txt {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
 
   padding: 7px 14px 7px 13px;
 }
-.user__skills{
+.user__skills {
   display: flex;
   justify-content: space-between;
   padding-bottom: 8px;
 }
 
-.skill{
+.skill {
   position: relative;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background: rgba(196, 196, 196, 0.4);
 }
-.skill__pic{
+.skill__pic {
   position: absolute;
   left: 10px;
   top: 10px;
 }
-.figma__skill{
+.figma__skill {
   position: absolute;
   top: 10px;
   left: 13px;
 }
 
-.git__skill{
+.git__skill {
   width: 80%;
   position: absolute;
   top: 5px;
@@ -207,27 +210,27 @@ body{
 }
 
 /*Right column start*/
-.right__col{
+.right__col {
   max-width: 321px;
   padding: 10px 13px 10px 0;
 }
-.right__col-wrapper{
-    background: #FFFFFF;
-    border-radius: 10px;
+.right__col-wrapper {
+  background: #ffffff;
+  border-radius: 10px;
 }
 
-.container__right{
+.container__right {
   max-width: 294px;
   margin: 0 auto;
 }
 
-.about__user{
+.about__user {
   display: flex;
   align-items: center;
   padding-top: 19px;
 }
 
-.about__user_block{
+.about__user_block {
   width: 154px;
   height: 24px;
 
@@ -237,36 +240,36 @@ body{
   justify-content: center;
 }
 
-.about__user-line{
-  width: 141px ;
+.about__user-line {
+  width: 141px;
   height: 1px;
   background: #545454;
 }
 
-.about__user-text{
+.about__user-text {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 18px;
   letter-spacing: 0px;
-  color:  #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   padding: 3px;
   margin: 0 auto;
 }
 
-.about__user-info-text{
+.about__user-info-text {
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
   line-height: 14px;
   color: rgba(0, 0, 0, 0.8);
 }
-.about__person-info-text{
+.about__person-info-text {
   margin: 0px;
 }
 
-.person__title{
+.person__title {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -276,20 +279,20 @@ body{
   padding-top: 12px;
 }
 
-.user__block{
+.user__block {
   padding-top: 12px;
 }
 
-.person__code-ex{
+.person__code-ex {
   margin: 0;
   height: 60px;
 }
 
-.experience__list{
+.experience__list {
   padding: 12px 0 0 10px;
   margin: 0;
 }
-.experience__title{
+.experience__title {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -297,7 +300,7 @@ body{
   color: #343434;
 }
 
-.specification{
+.specification {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -305,7 +308,7 @@ body{
   color: #343434;
   margin: 0;
 }
-.institute{
+.institute {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -314,49 +317,53 @@ body{
   margin: 0;
 }
 
-.year{
+.year {
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
   line-height: 18px;
-  color: #73808D;
+  color: #73808d;
 }
-.person__spec{
+.person__spec {
   padding-top: 12px;
 }
 
-.spec__two{
+.spec__two {
   padding-bottom: 30px;
 }
 
-.footer{
+.footer {
   padding-bottom: 5px;
   margin: 0 auto;
   background: rgba(224, 37, 206, 0.79);
   max-width: 650px;
 }
 
-.footer__wrapper{
+.footer__wrapper {
   margin: 0 auto;
   max-width: 623px;
   background: rgba(196, 196, 196, 0.3);
   border-radius: 10px;
 }
 
-.container__wrapper{
+.container__wrapper {
   padding: 5px 0;
- 
+}
+.footer__items {
   max-width: 300px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.footer__item {
+  list-style-type: none;
+}
 
-.git__img{
+.git__img {
   width: 30px;
 }
 
-.rsschool__img{
+.rsschool__img {
   width: 50px;
 }
