@@ -1,2 +1,2 @@
 # rsschool-cv
-https://PrytMaks.github.io/rsschool-cv/cv
+https://PrytMaks.github.io/rsschool-cv/
