@@ -18,3 +18,10 @@ Hello, my name is Maxim, my surname is Prytkov. I am 27 years old, I live in Rus
 - Figma
 - Git
 
+## Experience
+
+- HTML Academy intensive simulators
+- FreeCodeCamp Basic HTML and HTML5, Basic CSS
+- RSSchool Front-end 2021q1 (Not finished)
+- RSSchool Front-end 2021q3 (Not finished)
+- RSSchool Pre school 2022 (Completed)
