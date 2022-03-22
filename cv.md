@@ -25,3 +25,7 @@ Hello, my name is Maxim, my surname is Prytkov. I am 27 years old, I live in Rus
 - RSSchool Front-end 2021q1 (Not finished)
 - RSSchool Front-end 2021q3 (Not finished)
 - RSSchool Pre school 2022 (Completed)
+
+## English
+
+A2 Pre-intermediate
